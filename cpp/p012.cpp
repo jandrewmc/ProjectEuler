@@ -20,10 +20,10 @@ int result()
 		if (getFactorsCount(triangleNumber) >= 500) return triangleNumber;
 	}
 	return 0;
+}
 
 int main()
 {
 	cout << result() << endl;		
-
 }
 
